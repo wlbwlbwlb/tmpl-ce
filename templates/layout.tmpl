@@ -1,0 +1,36 @@
+{{ $a := .moduleName }}
+
+{{ printf "%s%s%s%s" $a "/" $a "Control" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Control" "/" ".gitkeep" | touch }}
+
+
+{{ printf "%s%s%s%s" $a "/" $a "Job" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Job" "/" ".gitkeep" | touch }}
+
+
+{{ printf "%s%s%s%s" $a "/" $a "Model" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Model" "/" ".gitkeep" | touch }}
+
+
+{{ printf "%s%s%s%s" $a "/" $a "Mq" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Mq" "/" ".gitkeep" | touch }}
+
+
+{{ printf "%s%s%s%s" $a "/" $a "Pb" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Pb" "/" ".gitkeep" | touch }}
+
+
+{{ printf "%s%s%s%s" $a "/" $a "Router" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Router" "/" ".gitkeep" | touch }}
+
+
+{{ printf "%s%s%s%s" $a "/" $a "Rpc" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Rpc" "/" ".gitkeep" | touch }}
+
+
+{{ printf "%s%s%s%s" $a "/" $a "Service" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Service" "/" ".gitkeep" | touch }}
+
+
+{{ printf "%s%s%s%s" $a "/" $a "Util" | mkdir }}
+{{ printf "%s%s%s%s%s%s" $a "/" $a "Util" "/" ".gitkeep" | touch }}
